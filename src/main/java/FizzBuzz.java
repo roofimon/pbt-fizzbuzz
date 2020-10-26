@@ -1,11 +1,3 @@
-import org.apache.commons.lang3.math.NumberUtils;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
-
 public class FizzBuzz {
     public String count(int value) {
         if ((value % 3 == 0) && (value % 5 == 0))
